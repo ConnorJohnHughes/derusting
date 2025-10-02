@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
@@ -20,10 +23,16 @@ public class StringPractice {
     for(int i =0; i < word.length(); i++){
       System.out.println(word.charAt(i));
     }
-
+    System.out.println("\n");
     // Create an ArrayList of Strings and assign it to a variable
-
+    ArrayList<String> ray = new ArrayList<>();
     // Add multiple strings to the List (OK to do one-by-one)
+    ray.add("car");
+    ray.add("dog");
+    ray.add("cat");
+    ray.add("red");
+    ray.add("blue");
+    System.out.println(ray + "\n");
 
     // Join all of the strings in the list together into a single string separated by commas
     // Use a built-in method to achieve this instead of using a loop
