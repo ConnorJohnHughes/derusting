@@ -37,6 +37,8 @@ public class NumberPractice {
       System.out.println("This number is even: " + n);
      }else{
       System.out.println("This number is odd: " + n);
-     }
+     };
+
+     System.out.println(n / 2);
   }
 }
