@@ -36,8 +36,13 @@ public class StringPractice {
 
     // Join all of the strings in the list together into a single string separated by commas
     // Use a built-in method to achieve this instead of using a loop
+    String concat = String.join(", ", ray);
+    System.out.println(concat + "\n");
 
     // Check whether two strings are equal
+    String one = "racecar";
+    String two = "Truck";
+    System.out.println(one.equals(two));
 
     /*
      * Reminder!
