@@ -26,5 +26,17 @@ public class NumberPractice {
      int num = 8;
      System.out.println(num);
      System.out.println(num / 3 % 3);
+
+     int even = 10;
+     if (even % 2 == 0){
+      System.out.println("This number is even: " + even);
+     };
+
+     int n = 5;
+     if (n % 2 == 0){
+      System.out.println("This number is even: " + n);
+     }else{
+      System.out.println("This number is odd: " + n);
+     }
   }
 }
