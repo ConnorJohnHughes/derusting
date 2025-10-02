@@ -8,17 +8,21 @@ public class Person {
   // Declare a private int instance variable for the age of the person
   public String name = "Tom";
   private int age = 32;
+  
 
 
   // Create a constructor that takes the name and age of the person
   // and assigns it to the instance variables
   public  Person(String name, int age){
-    String personName = name;
-    int personAge = age;
+    this.name = name;
+    this.age = age;
   }
 
 
   // Create a toString method that gives the name and age of the person
+  public String toString(String name, int age){
+    return "This person's name is " + name + " and their age is " + age;
+  }
 
 
   // Implement the below public instance method "birthYear"
@@ -34,7 +38,9 @@ public class Person {
    * @return The year the person was born
    */
   // (create the instance method here)
-
+  public int birthYear( int currentyear){
+    return currentyear - age;
+  }
 
   public static void main(String[] args) {
     // Create an instance of Person
