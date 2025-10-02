@@ -6,8 +6,12 @@ public class StringPractice {
     // Find the length of the string
     System.out.println(word.length() + "\n");
     // Concatenate (add) two strings together and reassign the result
-
+    String fName = "Connor";
+    String lName = "Hughes";
+    String fullName = fName + " " + lName;
+    System.out.println(fullName + "\n");
     // Find the value of the character at index 3
+    System.out.println(word.charAt(3) + "\n");
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
 
