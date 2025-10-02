@@ -17,8 +17,11 @@ public class SetPractice {
     System.out.println(hs +"\n");
 
     // Check whether the Set contains a given String
+    System.out.println(hs.contains("red") + "\n");
 
     // Remove an element from the Set
+    hs.remove("pink");
+    System.out.println(hs + "\n");
 
     // Get the size of the Set
 
