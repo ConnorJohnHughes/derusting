@@ -14,8 +14,12 @@ public class StringPractice {
     System.out.println(word.charAt(3) + "\n");
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
+    System.out.println(word.contains("a") + "\n");
 
     // Iterate over the characters of the string, printing each one on a separate line
+    for(int i =0; i < word.length(); i++){
+      System.out.println(word.charAt(i));
+    }
 
     // Create an ArrayList of Strings and assign it to a variable
 
