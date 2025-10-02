@@ -27,9 +27,13 @@ public class ListPractice {
     System.out.println(list);
 
     // Check whether the list contains a certain string
+    System.out.println(list.contains("Third"));
 
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
+    for(int i = 0; i < list.size(); i++){
+      System.out.println(i + ": " + list.get(i));
+    }
 
     // Sort the list using the Collections library
 
