@@ -27,4 +27,5 @@ Make a Pull Request (PR) against the original repository. Copy the link into Can
 
 ## What i can work on:
 
-1. Brush up on For loops 
+1. For loops 
+2. Arrays
