@@ -21,5 +21,10 @@ public class NumberPractice {
      * 7 / 3 = 2 when performing int division
      */
 
+     float neg = -7;
+     System.out.println(neg);
+     int num = 8;
+     System.out.println(num);
+     System.out.println(num / 3 % 3);
   }
 }
