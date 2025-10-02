@@ -24,8 +24,13 @@ public class SetPractice {
     System.out.println(hs + "\n");
 
     // Get the size of the Set
+    System.out.println(hs.size() + "\n");
 
     // Iterate over the elements of the Set, printing each one on a separate line
+    for(String item : hs){
+      System.out.println(item);
+    }
+    System.out.println("\n");
 
     /*
      * Warning!
