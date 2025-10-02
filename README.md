@@ -25,3 +25,6 @@ Most of these taks should be easy, but there will likely be some that ask you to
 Make a Pull Request (PR) against the original repository. Copy the link into Canvas to submit.
 
 
+## What i can work on:
+
+1. Brush up on For loops 
