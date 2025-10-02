@@ -1,10 +1,18 @@
+import java.util.Arrays;
+
 public class ArrayPractice {
   public static void main(String[] args) {
     // Create an array of Strings of size 4
+    String[] ray = {"one", "two", "three", "four"};
+    System.out.println(Arrays.toString(ray) + '\n');
 
     // Set the value of the array at each index to be a different String
     // It's OK to do this one-by-one
-
+    ray[0]= "1";
+    ray[1]= "2"; 
+    ray[2]= "3";
+    ray[3]= "4";
+    System.out.println(Arrays.toString(ray) + "\n");
     // Get the value of the array at index 2
 
     // Get the length of the array
