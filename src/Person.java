@@ -6,10 +6,16 @@
 public class Person {
   // Declare a public String instance variable for the name of the person
   // Declare a private int instance variable for the age of the person
+  public String name = "Tom";
+  private int age = 32;
 
 
   // Create a constructor that takes the name and age of the person
   // and assigns it to the instance variables
+  public  Person(String name, int age){
+    String personName = name;
+    int personAge = age;
+  }
 
 
   // Create a toString method that gives the name and age of the person
