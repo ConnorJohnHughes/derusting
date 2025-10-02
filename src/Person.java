@@ -13,9 +13,9 @@ public class Person {
 
   // Create a constructor that takes the name and age of the person
   // and assigns it to the instance variables
-  public  Person(String name, int age){
-    this.name = name;
-    this.age = age;
+  public Person(String name, int age){
+    String pName = name;
+    int pAge = age;
   }
 
 
@@ -44,9 +44,10 @@ public class Person {
 
   public static void main(String[] args) {
     // Create an instance of Person
-
+      Person tom = new Person("Tom", 32);
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
+    Person kari = new Person("Kari", 31);
 
     // Print the first person
 
