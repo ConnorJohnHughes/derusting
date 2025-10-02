@@ -13,10 +13,12 @@ public class MapPractice {
     map.put("Burgers", 8);
     map.put("Cheesecake", 10);
     System.out.println(map + "\n");
-    
+
     // Get the value associated with a given key in the Map
+    System.out.println(map.get("Tacos") + '\n');
 
     // Find the size (number of key/value pairs) of the Map
+    System.out.println(map.size() + "\n");
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
 
