@@ -21,8 +21,11 @@ public class MapPractice {
     System.out.println(map.size() + "\n");
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
+     map.replace("Tacos", 5, 7);
+    System.out.println(map + "\n");
 
     // Check whether the Map contains a given key
+    System.out.println(map.containsKey("Tacos") + "\n");
 
     // Check whether the Map contains a given value
 
