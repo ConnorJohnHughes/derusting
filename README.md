@@ -29,3 +29,4 @@ Make a Pull Request (PR) against the original repository. Copy the link into Can
 
 1. For loops 
 2. Arrays
+3. Built in methods
